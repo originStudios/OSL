@@ -64,3 +64,8 @@ Basic Expressions
 
 + - * / % (Add Minus Multiply Divide Modulus)
 
+or (returns true if either of the two items on either side of the "or" are equal to true)
+
+and (returns true if both of the items on either side of this "and" are equal to true)
+
+nor (returns true if the items on either side of the "nor" have only one item that is true)
