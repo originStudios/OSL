@@ -92,7 +92,7 @@ square {"width":100,"height":30,"rounding":10,"colour":#202020}
 ## Prefixes
 ```
 ! - not
-\# - len
+# - len
 
 none - int float variable
 "" - string
