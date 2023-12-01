@@ -48,24 +48,29 @@ This script will not print anything because 1 is equal to 1 and it skips to the 
 
 ```
 equl 1,1,hello
-prnt hello, how are you
+prnt "hello, how are you"
 hello:
 ```
 
-## Expressions
+## Maths
 
-You can put expressions inside exclamation marks
+Maths functions set the acc variable to their result
+```
+add 3,2
+sub 10,4
+```
 
-example:
+## Variables
 
-prnt 10 + 5 = !10 + 5!
+You can use a variable in a command with {varname}
+so you can run `prnt {varname}`
+same goes for all other command inputs, anything in curly brackets will be counted as a variable
 
-Basic Expressions
+this includes
 
-+ - * / % (Add Minus Multiply Divide Modulus)
+`equl hel{lo,wo}w`
+this only counts as one input because the middle part has been replaced with it's variable value
 
-or (returns true if either of the two items on either side of the "or" are equal to true)
-
-and (returns true if both of the items on either side of this "and" are equal to true)
-
-nor (returns true if the items on either side of the "nor" have only one item that is true)
+```
+set varname,vardata
+```
