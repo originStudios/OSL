@@ -47,17 +47,20 @@ example:
 This script will not print anything because 1 is equal to 1 and it skips to the hello label
 
 ```
-equl 1,1,hello
-prnt "hello, how are you"
-hello:
+equl 1 1 hello
+sacc hello, how are you
+prnt
+labl hello
 ```
 
 ## Maths
 
 Maths functions set the acc variable to their result
 ```
-add 3,2
-sub 10,4
+addi 3 2
+prnt
+subt 10 4
+prnt
 ```
 
 ## Variables
